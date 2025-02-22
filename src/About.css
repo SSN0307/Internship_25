@@ -1,0 +1,14 @@
+.about-container,
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh; /* Ensure full page height */
+  width: 100%;
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  background: linear-gradient(135deg, #1e1e2f, #3c3c5b);
+}

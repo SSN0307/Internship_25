@@ -1,0 +1,69 @@
+.auction-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    min-height: 100vh;  /* Full height to center vertically */
+    background-color: #24243e;  /* Dark background to match website theme */
+}
+
+.auction-list {
+    display: flex;
+    flex-direction: column;  /* Items stacked vertically */
+    align-items: center;
+    width: 100%;
+    max-width: 600px;  /* Constrain the width for better readability */
+}
+
+.auction-item {
+    background-color: #33334d;  /* Slightly lighter background for contrast */
+    border: 1px solid #444;  /* Dark border to match the dark theme */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px 0;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Stronger shadow for depth */
+    color: white;  /* White text for contrast */
+}
+
+.auction-item h2 {
+    color: #ff416c;  /* Accent color for item titles */
+}
+
+.bid-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.bid-form input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #555;  /* Darker border to match theme */
+    border-radius: 5px;
+    width: 100%;  /* Ensure input takes up full width */
+    background-color: #444;  /* Darker input background */
+    color: white;  /* White text inside input */
+}
+
+.bid-form input::placeholder {
+    color: #999;  /* Placeholder color */
+}
+
+.bid-form button {
+    padding: 10px;
+    background-color: #ff416c;  /* Main accent color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;  /* Full width for consistency */
+    transition: background-color 0.3s;
+}
+
+.bid-form button:hover {
+    background-color: #ff2950;  /* Slightly darker shade on hover */
+}
